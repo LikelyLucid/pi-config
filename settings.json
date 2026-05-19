@@ -1,0 +1,11 @@
+{
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-sonnet-4-6",
+  "defaultThinkingLevel": "medium",
+  "theme": "dark",
+  "hideThinkingBlock": false,
+  "enabledModels": [
+    "anthropic/claude-sonnet-4-6",
+    "anthropic/claude-opus-4-7"
+  ]
+}
