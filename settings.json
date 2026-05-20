@@ -7,5 +7,16 @@
   "enabledModels": [
     "anthropic/claude-sonnet-4-6",
     "anthropic/claude-opus-4-7"
+  ],
+  "packages": [
+    "npm:@tmustier/pi-tab-status",
+    "npm:@tmustier/pi-ralph-wiggum",
+    "npm:@tmustier/pi-usage-extension",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@ff-labs/pi-fff",
+    "npm:pi-subagents",
+    "npm:pi-btw",
+    "npm:pi-lens"
   ]
 }
