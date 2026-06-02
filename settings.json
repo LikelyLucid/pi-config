@@ -1,12 +1,51 @@
 {
-  "defaultProvider": "anthropic",
-  "defaultModel": "claude-sonnet-4-6",
-  "defaultThinkingLevel": "medium",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "low",
+  "subagents": {
+    "agentOverrides": {
+      "scout": {
+        "model": "openai-codex/gpt-5.3-codex-spark"
+      },
+      "planner": {
+        "model": "openai-codex/gpt-5.5"
+      },
+      "worker": {
+        "model": "openai-codex/gpt-5.5"
+      },
+      "reviewer": {
+        "model": "openai-codex/gpt-5.5"
+      },
+      "context-builder": {
+        "model": "openai-codex/gpt-5.5"
+      },
+      "researcher": {
+        "model": "openai-codex/gpt-5.5"
+      },
+      "delegate": {
+        "model": "openai-codex/gpt-5.5"
+      },
+      "oracle": {
+        "model": "openai-codex/gpt-5.5"
+      }
+    }
+  },
   "theme": "dark",
   "hideThinkingBlock": false,
   "enabledModels": [
-    "anthropic/claude-sonnet-4-6",
-    "anthropic/claude-opus-4-7"
+    "opencode-go/deepseek-v4-flash",
+    "opencode-go/deepseek-v4-pro",
+    "openai-codex/gpt-5.5",
+    "ollama-cloud/glm-5.1",
+    "ollama-cloud/minimax-m2.7",
+    "ollama-cloud/deepseek-v4-flash",
+    "ollama-cloud/kimi-k2.6",
+    "ollama-cloud/gpt-oss:120b",
+    "ollama-cloud/nemotron-3-nano:30b",
+    "opencode-go/glm-5.1",
+    "opencode-go/kimi-k2.6",
+    "github-copilot/gemini-3-flash-preview",
+    "openai-codex/gpt-5.3-codex-spark"
   ],
   "packages": [
     "npm:@tmustier/pi-tab-status",
@@ -18,5 +57,6 @@
     "npm:pi-subagents",
     "npm:pi-btw",
     "npm:pi-lens"
-  ]
+  ],
+  "lastChangelogVersion": "0.75.3"
 }
