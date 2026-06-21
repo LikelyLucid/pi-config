@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tabby-agent-chat": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\micoo\\AppData\\Roaming\\tabby\\plugins\\node_modules\\tabby-agent-chat\\dist\\shim.js"
+      ],
+      "lifecycle": "lazy",
+      "directTools": true
+    }
+  }
+}

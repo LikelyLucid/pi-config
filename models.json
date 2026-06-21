@@ -1,0 +1,303 @@
+{
+  "providers": {
+    "ollama": {
+      "api": "openai-completions",
+      "apiKey": "ollama",
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false
+      },
+      "models": [
+        {
+          "_launch": true,
+          "contextLength": 1048576,
+          "contextWindow": 1048576,
+          "id": "deepseek-v4-pro:cloud",
+          "input": [
+            "text"
+          ],
+          "modelFamily": "unknown",
+          "parameterSize": "",
+          "quantizationLevel": "",
+          "reasoning": false
+        },
+        {
+          "_launch": true,
+          "contextLength": 1048576,
+          "contextWindow": 1048576,
+          "id": "deepseek-v4-flash:cloud",
+          "input": [
+            "text"
+          ],
+          "modelFamily": "unknown",
+          "parameterSize": "",
+          "quantizationLevel": "",
+          "reasoning": false
+        },
+        {
+          "contextLength": 262144,
+          "estimatedSize": {
+            "cpu": 206072000000,
+            "gpu": 55000000001
+          },
+          "id": "qwen3-coder-next:cloud",
+          "modelFamily": "qwen3next",
+          "parameterSize": "80B",
+          "quantizationLevel": "FP8",
+          "reasoning": true
+        },
+        {
+          "contextLength": 262144,
+          "estimatedSize": {
+            "cpu": 2575900000000,
+            "gpu": 687500000000
+          },
+          "id": "kimi-k2.6:cloud",
+          "modelFamily": "kimi-k2",
+          "parameterSize": "1T",
+          "quantizationLevel": "int4",
+          "reasoning": false
+        },
+        {
+          "contextLength": 2048,
+          "estimatedSize": {
+            "cpu": 416611520,
+            "gpu": 301400000
+          },
+          "id": "nomic-embed-text:latest",
+          "modelFamily": "nomic-bert",
+          "parameterSize": "137M",
+          "quantizationLevel": "F16",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 507897423,
+            "gpu": 305681063
+          },
+          "id": "qwen2:0.5b",
+          "modelFamily": "qwen2",
+          "parameterSize": "494.03M",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 131072,
+          "estimatedSize": {
+            "cpu": 3372864000,
+            "gpu": 1320000000
+          },
+          "id": "llama3.2:1b",
+          "modelFamily": "llama",
+          "parameterSize": "1.2B",
+          "quantizationLevel": "Q8_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 8192,
+          "estimatedSize": {
+            "cpu": 2313558000,
+            "gpu": 1608750001
+          },
+          "id": "gemma2:2b",
+          "modelFamily": "gemma2",
+          "parameterSize": "2.6B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 2048,
+          "estimatedSize": {
+            "cpu": 855270000,
+            "gpu": 618750000
+          },
+          "id": "moondream:latest",
+          "modelFamily": "phi2",
+          "parameterSize": "1B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 131072,
+          "estimatedSize": {
+            "cpu": 5059296000,
+            "gpu": 1980000001
+          },
+          "id": "llama3.2:latest",
+          "modelFamily": "llama",
+          "parameterSize": "3.2B",
+          "quantizationLevel": "Q4_K_M",
+          "reasoning": false
+        },
+        {
+          "contextLength": 4096,
+          "estimatedSize": {
+            "cpu": 3640518001,
+            "gpu": 2598750000
+          },
+          "id": "nemotron-mini:latest",
+          "modelFamily": "nemotron",
+          "parameterSize": "4.2B",
+          "quantizationLevel": "Q4_K_M",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 6579648000,
+            "gpu": 3960000001
+          },
+          "id": "avil/UI-TARS:latest",
+          "modelFamily": "qwen2vl",
+          "parameterSize": "1.8B",
+          "quantizationLevel": "F16",
+          "reasoning": false
+        },
+        {
+          "contextLength": 8192,
+          "estimatedSize": {
+            "cpu": 7118640000,
+            "gpu": 4950000000
+          },
+          "id": "llama3.1:latest",
+          "modelFamily": "llama",
+          "parameterSize": "8.0B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 7813332000,
+            "gpu": 4702500000
+          },
+          "id": "qwen2.5:latest",
+          "modelFamily": "qwen2",
+          "parameterSize": "7.6B",
+          "quantizationLevel": "Q4_K_M",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 7813332000,
+            "gpu": 4702500000
+          },
+          "id": "qwen2.5:7b",
+          "modelFamily": "qwen2",
+          "parameterSize": "7.6B",
+          "quantizationLevel": "Q4_K_M",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 7196490000,
+            "gpu": 4331250000
+          },
+          "id": "bakllava:latest",
+          "modelFamily": "llama",
+          "parameterSize": "7B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 131072,
+          "estimatedSize": {
+            "cpu": 13913064000,
+            "gpu": 5445000000
+          },
+          "id": "yi-coder:latest",
+          "modelFamily": "llama",
+          "parameterSize": "8.8B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 131072,
+          "estimatedSize": {
+            "cpu": 13913064000,
+            "gpu": 5445000000
+          },
+          "id": "yi-coder:9b",
+          "modelFamily": "llama",
+          "parameterSize": "8.8B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 8192,
+          "estimatedSize": {
+            "cpu": 8186436000,
+            "gpu": 5692500000
+          },
+          "id": "gemma2:latest",
+          "modelFamily": "gemma2",
+          "parameterSize": "9.2B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 7813332000,
+            "gpu": 4702500000
+          },
+          "id": "minicpm-v:latest",
+          "modelFamily": "qwen2",
+          "parameterSize": "7.6B",
+          "quantizationLevel": "Q4_0",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 8704326000,
+            "gpu": 5238750000
+          },
+          "id": "hf.co/bartowski/UI-TARS-7B-SFT-GGUF:IQ4_NL",
+          "modelFamily": "qwen2vl",
+          "parameterSize": "7.62B",
+          "quantizationLevel": "unknown",
+          "reasoning": false
+        },
+        {
+          "contextLength": 32768,
+          "estimatedSize": {
+            "cpu": 15215436000,
+            "gpu": 9157500000
+          },
+          "id": "qwen2.5:14b",
+          "modelFamily": "qwen2",
+          "parameterSize": "14.8B",
+          "quantizationLevel": "Q4_K_M",
+          "reasoning": false
+        },
+        {
+          "contextLength": 131072,
+          "estimatedSize": {
+            "cpu": 12648240000,
+            "gpu": 4950000000
+          },
+          "id": "gemma4:e4b",
+          "modelFamily": "gemma4",
+          "parameterSize": "8.0B",
+          "quantizationLevel": "Q4_K_M",
+          "reasoning": false
+        },
+        {
+          "_launch": true,
+          "contextWindow": 262144,
+          "id": "kimi-k2.6:cloud",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true
+        }
+      ]
+    }
+  }
+}

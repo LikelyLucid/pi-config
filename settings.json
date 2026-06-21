@@ -1,7 +1,7 @@
 {
-  "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
-  "defaultThinkingLevel": "low",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4-flash",
+  "defaultThinkingLevel": "high",
   "subagents": {
     "agentOverrides": {
       "scout": {
@@ -36,6 +36,12 @@
     "opencode-go/deepseek-v4-flash",
     "opencode-go/deepseek-v4-pro",
     "openai-codex/gpt-5.5",
+    "ollama-cloud/glm-5.1",
+    "ollama-cloud/minimax-m2.7",
+    "ollama-cloud/deepseek-v4-flash",
+    "ollama-cloud/kimi-k2.6",
+    "ollama-cloud/gpt-oss:120b",
+    "ollama-cloud/nemotron-3-nano:30b",
     "opencode-go/glm-5.1",
     "opencode-go/kimi-k2.6",
     "github-copilot/gemini-3-flash-preview",
@@ -46,11 +52,14 @@
     "npm:@tmustier/pi-ralph-wiggum",
     "npm:@tmustier/pi-usage-extension",
     "npm:@juicesharp/rpiv-ask-user-question",
-    "npm:@juicesharp/rpiv-todo",
     "npm:@ff-labs/pi-fff",
-    "npm:pi-subagents",
+    "C:\\Users\\micoo\\.pi\\agent\\local-packages\\pi-subagents-allow-failures",
     "npm:pi-btw",
-    "npm:pi-lens"
+    "npm:pi-lens",
+    "npm:pi-mcp-adapter",
+    "npm:@narumitw/pi-codex-usage",
+    "npm:@quintinshaw/pi-dynamic-workflows",
+    "git:github.com/DietrichGebert/ponytail"
   ],
-  "lastChangelogVersion": "0.75.3"
+  "lastChangelogVersion": "0.79.7"
 }

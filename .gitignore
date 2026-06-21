@@ -1,0 +1,26 @@
+# Secrets
+auth.json
+
+# Cache / ephemeral
+cache/
+mcp-cache.json
+*.cache
+.pi-lens/
+
+# Dependencies
+**/node_modules/
+
+# Cloned git packages (managed by pi itself)
+git/
+
+# npm managed packages
+npm/node_modules/
+npm/package-lock.json
+npm/.gitignore
+
+# Local dev artifacts
+turn-state.json
+
+# OS
+.DS_Store
+Thumbs.db
