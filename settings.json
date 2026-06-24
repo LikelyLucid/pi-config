@@ -56,7 +56,6 @@
     "npm:pi-subagents",
     "npm:pi-btw",
     "npm:pi-intercom",
-    "npm:@gotgenes/pi-permission-system",
     "npm:pi-lens",
     "npm:pi-mcp-adapter",
     "npm:@narumitw/pi-codex-usage",
