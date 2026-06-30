@@ -1,12 +1,10 @@
 {
   "mcpServers": {
-    "tabby-agent-chat": {
-      "command": "node",
-      "args": [
-        "C:\\Users\\micoo\\AppData\\Roaming\\tabby\\plugins\\node_modules\\tabby-agent-chat\\dist\\shim.js"
-      ],
-      "lifecycle": "lazy",
-      "directTools": true
+    "omi": {
+      "url": "https://api.omi.me/v1/mcp/sse",
+      "headers": {
+        "Authorization": "Bearer omi_mcp_4af89eb2105cf6f585466ff10b6fb626"
+      }
     }
   }
 }
