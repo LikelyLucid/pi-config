@@ -1,10 +1,26 @@
 {
   "mcpServers": {
+    "computer-use-linux": {
+      "command": "/home/lucid/.local/share/pi/npm/bin/computer-use-linux",
+      "args": ["mcp"]
+    },
     "omi": {
       "url": "https://api.omi.me/v1/mcp/sse",
       "headers": {
         "Authorization": "Bearer omi_mcp_4af89eb2105cf6f585466ff10b6fb626"
       }
+    },
+    "claude-handoff": {
+      "command": "npx",
+      "args": ["-y", "@kiwuuu/claude-handoff-mcp"]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--browser-url=http://127.0.0.1:9222"
+      ]
     }
   }
 }
